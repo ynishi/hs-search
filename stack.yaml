@@ -37,7 +37,7 @@ packages:
 # Dependency packages to be pulled from upstream that are not in the resolver
 # using the same syntax as the packages field.
 # (e.g., acme-missiles-0.3)
-# extra-deps: []
+extra-deps: ["aeson-gadt-th-0.1.2.0@sha256:64bdf62926e60ed1f7baf471c0dc838a4a3487fc182f9da253b5d92a79ba0172" ]
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
